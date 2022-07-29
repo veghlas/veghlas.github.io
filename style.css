@@ -1,0 +1,122 @@
+main {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  position: absolute;
+  top: 0;
+  width: 1300px;
+}
+
+header #hbox{
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  margin-left: auto;
+  margin-right:auto;
+  width: 700px;
+  position: relative;
+  top:-190px;
+  padding-left:0;
+}
+
+header h2{
+   font-size: 38px;
+   font-weight: 100;
+   margin: 0;
+   position: relative;
+   top: 10px;
+}
+
+header h1{
+   font-size: 72px;
+   font-weight: 100;
+   margin: 0;
+}
+
+section{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:20px;
+  line-height:25px;
+}
+
+#fst_section{
+  margin-top: 470px;
+  margin-bottom: 60px;
+  line-height: 30px;
+}
+  
+
+li{
+  font-size:16px;
+}
+
+.idezet{
+  display:flex;
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 48px;
+  font-family: 'Abril Fatface', cursive;
+  background-color: #222;
+  color: white;    
+}
+
+ .idezet::before {
+  content: '”';
+  font-size: 150px;
+  position:absolute;
+  top: -40px;
+  left: 0px;
+  
+}
+
+section h2{
+   text-transform:  uppercase;
+   font-size:24px;
+   margin-top: 60px;
+   margin-bottom: 50px;
+   letter-spacing:1px;
+}
+
+section h3{
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom:0;
+}
+
+section h4{
+  margin-top:0;
+  margin-bottom:0;
+  font-size: 14px;
+  font-family: 'Merriweather', serif;
+}
+
+.paragraph{
+  font-size: 15px;
+  line-height: 25px;
+  margin-top:30px;
+  margin-bottom:40px;
+}
+
+.small_list{
+  font-size:14px;
+  margin-bottom:40px;
+}
+
+#bottom{
+  width:720px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: solid 4px;
+  padding-left: 20px;
+  
+}
